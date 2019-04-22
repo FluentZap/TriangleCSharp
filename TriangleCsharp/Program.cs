@@ -2,10 +2,9 @@
 
 namespace TriangleCsharp
 {
-    
     class Program
     {
-        static void Main(string[] args)
+        static void TestTriangles()
         {
             TriangleTest testthing = new TriangleTest();
 
@@ -19,6 +18,25 @@ namespace TriangleCsharp
 
             string triangle = testthing.testTriangle(sideOne, sideTwo, sideThree);
             Console.WriteLine(triangle);
+        }
+
+
+
+        static void TestPalindromes()
+        {
+            Palindromes pal = new Palindromes();
+
+            Console.WriteLine("Welcone to Palindrome tester, enter your Palindrome: ");
+            string text = Console.ReadLine();
+            Console.WriteLine(pal.CheckForPalindromes(text));
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            //TestTriangles();
+            TestPalindromes();
 
         }
     }
