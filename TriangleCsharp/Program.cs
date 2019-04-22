@@ -32,11 +32,18 @@ namespace TriangleCsharp
         }
 
 
+        static void TestNumberGame()
+        {
+            NumberGame game = new NumberGame();
+
+        }
+
 
         static void Main(string[] args)
         {
             //TestTriangles();
-            TestPalindromes();
+            //TestPalindromes();
+            TestNumberGame();
 
         }
     }
