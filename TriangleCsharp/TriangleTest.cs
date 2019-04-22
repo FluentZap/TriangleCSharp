@@ -6,6 +6,7 @@ namespace TriangleCsharp
     {
         public string testTriangle(int sideOne, int sideTwo, int sideThree)
         {
+            
             int longestSide = 0;
             int otherSide = 0;
             if (sideOne > sideTwo && sideOne > sideThree) 
@@ -43,7 +44,7 @@ namespace TriangleCsharp
             if (sideOne != sideTwo && sideOne != sideThree && sideTwo != sideThree)
             {
                 return "This is an Scalene";
-            }
+            }   
 
 
 

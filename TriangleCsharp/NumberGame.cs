@@ -6,11 +6,17 @@ namespace TriangleCsharp
         Random rnd = new Random();
         public NumberGame()
         {
-            for (int i = 0; i < 1000000; i++)
-            {
-				int number = rnd.Next(1, 100);
-				Console.Write(number);
-            }
+            int number = rnd.Next(1, 100);
+			
+        }
+
+
+
+
+        public int Guess() 
+        {
+
+            return 0;
         }
     }
 }
