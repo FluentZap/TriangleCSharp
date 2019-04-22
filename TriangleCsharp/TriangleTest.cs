@@ -40,6 +40,11 @@ namespace TriangleCsharp
                 return "This is an Isosceles";
             }
 
+            if (sideOne != sideTwo && sideOne != sideThree && sideTwo != sideThree)
+            {
+                return "This is an Scalene";
+            }
+
 
 
             return "trianglething";
